@@ -1,3 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
 body {
     background-color: peachpuff;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    height: 680px;
+    margin: 10px;
+    border-radius: 1px;
+    border-color: lightblue;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 800px;
+    margin-bottom: 10px;
+    background-size: cover;
+    align-items: center;
+}
+
+.car-1 {
+    background-image: url(./headphone.jpg);
+}
+
+.chair-1 {
+    background-image: url(./chair.jpg);
+}
+
+.icecream-1 {
+    background-image: url(./icecream.jpg);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.card-body {
+    font-family: justi;
+}
+
+#demobox {
+    background-color: darkgray;
+    padding: 10px;
+    color: yellow;
 }
